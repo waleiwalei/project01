@@ -1,0 +1,33 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+body{
+	background:url(pic/bg1.jpg);
+	background-size: 1400px 1000px;	
+}
+#head{
+	width: 70%;
+	margin: 50px auto;	
+}
+#head #title{
+	font:bold 30px solid;	
+}
+#content{
+	width: 70%;
+	margin: 50px auto;	
+}
+#ques,#ans{
+	margin: 30px auto;
+	font: 20px bold solid;	
+}
+#input_num{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;	
+}
+#result{
+	/*display: none;*/
+	margin: 30px auto;
+}
