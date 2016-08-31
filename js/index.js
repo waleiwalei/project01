@@ -48,10 +48,10 @@ $(document).ready(function(){
 				ans.hide();
 				$('#input_num').hide();
 				btn.hide();
-				result.show();
 				result.text('Your grade is ' + counts);
-				var jsonText = JSON.stringify(quesAns);
-				document.write(jsonText);
+				result.show();
+//				var jsonText = JSON.stringify(quesAns);
+//				document.write(jsonText);
 				
 			}
 			else{	
