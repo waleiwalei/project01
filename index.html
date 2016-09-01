@@ -1,25 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<script src="js/jquery-2.2.3.min.js"></script>
-<script src="js/index.js"></script>
-<title>问答应用</title>
-</head>
-
-<body>
-<div id="head">
-	<div id="title">问答小测试</div>
-</div>
-<div id="content">
-	<div id="ques_ans">
-    	<div id="ques"></div>
-        <div id="ans"></div>
-        <div id="result"></div>
-        <input type="text" id="input_num" value=" "/>		<!--答题文本框-->
-        <input type="button" value="next" id="next_ques"/>
-    </div>
-</div>
-</body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>test</title>
+		<link rel="stylesheet" href="css/userRegister.css" />
+	</head>
+	<body>
+		<div id="login">
+			<form id="login_form" autocomplete="on">
+				<h3>登录</h3>
+				<p id="username">
+					<label for="user">用户名</label>
+					<input type="text" name="user" id="user" />
+				</p>
+				<p id="password">
+					<label for="passw">密&nbsp;码</label>
+					<input type="password" name="passw" id="passw" />
+				</p>
+				<p id="loginbtn">
+					<input type="button" id="logbtn" value="登录"/>
+				</p>
+				<p id="signup">
+					没有账号？<a id="sign" href="#">立即注册</a>
+				</p>
+			</form>
+			
+			<div id="register">
+				<h3>注册</h3>
+				<p id="username2">
+					<label for="user2">用户名</label>
+					<input type="text" name="user2" id="user2" />
+				</p>
+				<p id="password2">
+					<label for="passw2">密&nbsp;码</label>
+					<input type="password" name="passw2" id="passw2" />
+				</p>
+				<p id="submit">
+					<input type="button" value="注册" id="registerbtn"/>
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-2.2.3.min.js" ></script>
+		<script type="text/javascript" src="js/self.js" ></script>
+		<script type="text/javascript" src="js/registerCheck.js" ></script>
+	</body>
 </html>
