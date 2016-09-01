@@ -4,7 +4,7 @@
 	padding: 0px;	
 }
 body{
-	background:url(pic/bg1.jpg);
+	background: url(../pic/bg1.jpg);
 	background-size: 1400px 1000px;	
 }
 #head{

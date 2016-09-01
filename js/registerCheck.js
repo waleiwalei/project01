@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	var url_askAndAnswer = 'askAndAnswer.html';
 	var asign = $('#sign');
 	var user = $('#user');
 	var passw = $('#passw');
@@ -16,6 +17,7 @@ $(document).ready(function(){
 			localStorage.setItem('userloc',user2.val());
 			localStorage.setItem('passwloc',passw2.val());
 			alert('注册成功！');
+			self.location = url_askAndAnswer;
 		}
 	});
 	var logbtn = $('#logbtn');
@@ -26,6 +28,7 @@ $(document).ready(function(){
 			alert('用户名或密码错误！');
 		}else{
 			alert('登录成功！');
+			self.location = url_askAndAnswer;
 			cookieUtil.set('usercoo',user);
 			var cookievalue = cookieUtil.get('usercoo');
 			if(cookievalue != null){
